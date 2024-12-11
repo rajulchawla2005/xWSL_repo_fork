@@ -4,7 +4,7 @@ IF %ERRORLEVEL% == 0 (ECHO Administrator check passed...) ELSE (ECHO You need to
 COLOR 1F
 SET WSLREV=20240425
 SET DISTRO=xWSL
-SET GITORG=DesktopECHO
+SET GITORG=xWSL_repo_fork
 SET GITPRJ=xWSL
 SET BRANCH=master
 SET BASE=https://github.com/%GITORG%/%GITPRJ%/raw/%BRANCH%
